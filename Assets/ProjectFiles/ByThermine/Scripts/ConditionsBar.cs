@@ -74,4 +74,16 @@ public class ConditionsBar : MonoBehaviour
         BarValue += 1f;
     }
 
+    public void ChangeCleannessBar()
+    {
+        BarValue += 25f;
+    }
+    public void ChangeHappinessBar()
+    {
+        BarValue += 30f;
+    }
+    public void ChangeHungerBar()
+    {
+        BarValue += 15f;
+    }
 }

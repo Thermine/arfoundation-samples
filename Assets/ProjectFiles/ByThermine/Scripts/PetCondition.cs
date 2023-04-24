@@ -6,7 +6,7 @@ public class PetCondition : MonoBehaviour
 {
     public static PetCondition instance;
     [SerializeField] private GameObject pet;
-
+    [SerializeField] private ParticleSystem deathParticles;
 
     private void Awake()
     {
@@ -23,5 +23,6 @@ public class PetCondition : MonoBehaviour
     public void PetDeath()
     {
         Destroy(pet);
+        deathParticles.Play();
     }
 }

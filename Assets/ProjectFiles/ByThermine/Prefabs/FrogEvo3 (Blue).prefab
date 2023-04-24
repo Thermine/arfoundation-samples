@@ -1438,6 +1438,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7135938943843450197}
+  - component: {fileID: 4202153528757305932}
   m_Layer: 0
   m_Name: FrogEvo3 (Blue)
   m_TagString: Untagged
@@ -1462,6 +1463,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!111 &4202153528757305932
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7515419286334760943}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: -4799524434163024911, guid: 902d666d497584d52a6ac44eca8eda7c,
+    type: 3}
+  m_Animations:
+  - {fileID: -4799524434163024911, guid: 902d666d497584d52a6ac44eca8eda7c, type: 3}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &7870060466794029493
 GameObject:
   m_ObjectHideFlags: 0

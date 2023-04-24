@@ -129,7 +129,7 @@ EditorBuildSettings:
     path: Assets/ProjectFiles/ByThermine/Scenes/Menu.unity
     guid: 2bd8356b8be3442348c05beb79639e1c
   - enabled: 1
-    path: Assets/Scenes/SimpleAR/SimpleAR.unity
+    path: Assets/ProjectFiles/ByThermine/SimpleAR/SimpleAR.unity
     guid: 99c9720ab356a0642a771bea13969a05
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: f8ce26fe3bc69499b9be4b2378e97a94,
